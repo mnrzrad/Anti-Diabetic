@@ -28,7 +28,8 @@ selected_numerical_columns <- numerical_columns[variances > 0.05]
 
 first_two_columns <- df[1:2]
 df <- cbind(first_two_columns, selected_numerical_columns)
-dim(df)
+# add dimension
+dim(df) 
 
 
 # preprocessing using table of frequency
